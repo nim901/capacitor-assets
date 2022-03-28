@@ -222,8 +222,8 @@ export function getRasterResourceSchema(
            * @see https://github.com/ionic-team/cordova-res/issues/94
            */
           return {
-            width: 1024,
-            height: 1024,
+            width: 512,
+            height: 512,
             alpha: false,
           };
         case ResourceType.SPLASH:
@@ -231,8 +231,8 @@ export function getRasterResourceSchema(
            * The 2x universal splash screen is 2732x2732.
            */
           return {
-            width: 2732,
-            height: 2732,
+            width: 2208,
+            height: 2208,
             alpha: true,
           };
       }
